@@ -20,7 +20,6 @@ public class AccountMapper {
                 account.getAccountHolderName(),
                 account.getBalance()
         );
-        System.out.println("From mapToAccountDto " + account.getId());
         return accountDto;
     }
 }
